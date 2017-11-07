@@ -1,5 +1,7 @@
 This code deconvolutes FASTQ files from Illumina sequencing for screens that use the Big Papi vector.<br/>
+
 Python is required to run this code.<br/>
+
 Files required:<br/>
 • Gzipped FASTQ file with construct reads<br/>
 • Gzipped FASTQ file with sample barcodes<br/>
@@ -9,7 +11,7 @@ Files required:<br/>
 
 
 To run this code type the following on the terminal:<br/>
-python big_papi_deconvolution.py --read-file <FASTQ construct reads file> --barcode-file <FASTQ sample barcodes file> --ref-u6 <File with U6 guides> --ref-h1 <File with H1 guides> --cond-file <File with sample conditions> --outputfile <.txt output file name> <br/>
+<b>python big_papi_deconvolution.py --read-file <FASTQ construct reads file> --barcode-file <FASTQ sample barcodes file> --ref-u6 <File with U6 guides> --ref-h1 <File with H1 guides> --cond-file <File with sample conditions> --outputfile <.txt output file name> <br/></b>
 
 This code prints summary statistics to standard output at the end of the run. It also outputs a tab-delimited file with read counts for all combinations of U6-H1 guides in all samples. 
 
