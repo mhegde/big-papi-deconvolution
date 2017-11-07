@@ -1,11 +1,11 @@
-This code deconvolutes FASTQ files from Illumina sequencing for screens that use the Big Papi vector.
-Python is required to run this code.
+This code deconvolutes FASTQ files from Illumina sequencing for screens that use the Big Papi vector.<br/>
+Python is required to run this code.<br/>
 Files required:<br/>
-Gzipped FASTQ file with construct reads<br/>
-Gzipped FASTQ file with sample barcodes<br/>
-Reference file with U6 guides. This file should be in .csv format and should not have any headers. The first column should have the barcodes and the second column should have the construct IDs.<br/>
-Reference file with H1 guides. This file should be in .csv format and should not have any headers. The first column should have the barcodes and the second column should have the construct IDs.<br/>
-File with sample conditions. This file should be in .csv format and should not have any headers. The first column should have the barcodes and the second column should have the sample condition.<br/>
+• Gzipped FASTQ file with construct reads<br/>
+• Gzipped FASTQ file with sample barcodes<br/>
+• Reference file with U6 guides. This file should be in .csv format and should not have any headers. The first column should have the barcodes and the second column should have the construct IDs.<br/>
+• Reference file with H1 guides. This file should be in .csv format and should not have any headers. The first column should have the barcodes and the second column should have the construct IDs.<br/>
+• File with sample conditions. This file should be in .csv format and should not have any headers. The first column should have the barcodes and the second column should have the sample condition.<br/>
 
 
 To run this code type the following on the terminal:<br/>
