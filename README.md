@@ -1,6 +1,8 @@
 This code deconvolutes FASTQ files from Illumina sequencing for screens that use the Big Papi vector.<br/>
+Requires:<br/>
+Python-2.7<br/>
+pandas <br/>
 
-Python is required to run this code.<br/>
 
 Files required:<br/>
 • Gzipped FASTQ file with construct reads<br/>

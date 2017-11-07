@@ -1,3 +1,8 @@
+'''
+Author: Mudra Hegde
+Email: mhegde@broadinstitute.org
+Deconvolution of Big Papi screens
+'''
 import pandas as pd
 import csv, argparse, os
 from itertools import izip
